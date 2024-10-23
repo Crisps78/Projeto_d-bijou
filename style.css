@@ -1,0 +1,197 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 1em;
+}
+@import url('https://fonts.googleapis.com/css2?family=Bentham&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+  background-color: antiquewhite;
+  min-height: 100vh;
+}
+
+.container {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+header {
+  background-color: #843951;
+}
+
+.container>h1 {
+  color: #ffe3bd;
+  font-family: "Bentham", serif;
+  font-size: 5em;
+  padding: 50px;
+}
+
+ul {
+  list-style: none;
+}
+
+li a {
+  color: #ffe3bd;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  font-size: 1.5em;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+main {
+  margin: auto;
+  max-width: 900px;
+}
+
+section>h1 {
+  text-align: center;
+  padding: 20px;
+  font-size: 2em;
+}
+
+section>p {
+  font-family: "Poppins", sans-serif;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+}
+
+section.imagem {
+  height: 200px;
+  background-attachment: fixed;
+  background-color: rgba(116, 113, 113, 0.726);
+  background-image: url(./img/4.jpeg);
+  background-position: center center;
+  background-size: cover;
+}
+.form-email {
+  display: flex;
+  justify-content: center;
+  
+}
+form input,
+form textarea,
+form button {
+  display: block;
+  justify-content: center;
+  width: 320px;
+  margin-bottom: 8px;
+  padding: 8px;
+}
+form textarea {
+  border-radius: 5px;
+  resize: none;
+  height: 180px;
+}
+
+form button {
+  background-color: #843951;
+  color: #fefafa;
+  border-radius: 5px;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+}
+form button:hover {
+  background-color: #54a15f;
+}
+input:focus,
+textarea:focus {
+  outline-color: #843951;
+}
+
+
+.gallery {
+  
+  margin-top: 50px;
+  margin-bottom: 50px;
+  /* background-color: #843951; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.gallery-item {
+  width: calc(33.333% - 20px);
+  /* 3 colunas */
+  overflow: hidden;
+  position: relative;
+}
+
+.gallery-item img {
+  border: 3px solid #843951;
+  border-radius: 8px;
+  width: 100%;
+  height: 300px;
+  transition: transform 0.3s ease;
+}
+
+.gallery-item:hover img {
+  transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+  .gallery-item {
+    width: calc(50% - 10px);
+    /* 2 colunas em telas menores */
+  }
+}
+
+@media (max-width: 480px) {
+  .gallery-item {
+    width: 100%; }
+    /* 1 coluna em telas muito pequenas */
+  }
+
+.rede-social img {
+  width: 50px;
+  height: 50px;
+}
+
+
+
+  section.contato {
+    display: flex;
+    justify-content: center;
+  }
+
+
+  .carousel-inner img {
+
+    width: 300px;
+    height: 400px;
+  }
+
+
+
+  .whatsapp-icon {
+    position: fixed;
+    right: 20px;
+    /* Distância da borda direita */
+    bottom: 100px;
+    /* Distância da borda inferior */
+    /* z-index: 1000; Para garantir que fique acima de outros elementos */
+  }
+
+
+  .instagram-icon {
+    position: fixed;
+    right: 20px;
+    bottom: 200px;
+  }
+
+
+  footer {
+    background-color: #843951;
+    text-align: center;
+    color: #ffe3bd;
+    padding: 10px;
+  }
