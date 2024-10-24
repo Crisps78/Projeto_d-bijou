@@ -154,14 +154,14 @@ textarea:focus {
 
 @media (max-width: 768px) {
   .gallery-item {
-    width: calc(50% - 10px);
+    width: calc(50% - 50px);
     /* 2 colunas em telas menores */
   }
 }
 
 @media (max-width: 320px) {
   .gallery-item {
-    width: 100%; }
+    width: 50%; }
     /* 1 coluna em telas muito pequenas */
   }
 
