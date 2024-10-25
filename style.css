@@ -134,6 +134,13 @@ textarea:focus {
   outline-color: #843951;
 }
 
+.normal h2 {
+  min-width: 320px;
+  margin: 10px;
+  
+}
+
+
 
 .gallery {
   
