@@ -185,7 +185,7 @@ p, button {
 }
 @media (min-width: 320) {
   .btn {
-    width: auto;
+    margin: auto;
   }
 }
 .btn:hover {
