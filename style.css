@@ -167,7 +167,22 @@ textarea:focus {
   height: 300px;
   transition: transform 0.3s ease;
 }
+.gallery-item h5,
+p, button {
+  text-align: center;
+  
+  
+}
+.btn{
+  margin-left: 90px;
+  background-color: rgb(39, 100, 64);
+  color: #ffe3bd;
 
+}
+.btn:hover {
+  text-decoration: underline;
+  color: white;
+}
 .gallery-item:hover img {
   transform: scale(1.1);
 }
