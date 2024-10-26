@@ -179,6 +179,15 @@ p, button {
   color: #ffe3bd;
 
 }
+
+.btn {
+  /* min-width: 320px; */
+}
+@media (min-width: 320) {
+  .btn {
+    width: auto;
+  }
+}
 .btn:hover {
   text-decoration: underline;
   color: white;
@@ -194,7 +203,7 @@ p, button {
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 630px) {
   .gallery-item {
     width: 50%; }
     /* 1 coluna em telas muito pequenas */
