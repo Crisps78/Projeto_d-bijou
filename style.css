@@ -82,7 +82,6 @@ section>h1 {
 }
 
 section>p {
-  /* font-family: "Poppins", sans-serif; */
   font-family: Birds;
   padding-top: 10px;
   padding-bottom: 20px;
@@ -141,12 +140,10 @@ textarea:focus {
 }
 
 
-
 .gallery {
   
   margin-top: 50px;
   margin-bottom: 50px;
-  /* background-color: #843951; */
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -158,6 +155,10 @@ textarea:focus {
   /* 3 colunas */
   overflow: hidden;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
 }
 
 .gallery-item img {
@@ -174,7 +175,7 @@ p, button {
   
 }
 .btn{
-  margin-left: 90px;
+  
   background-color: rgb(39, 100, 64);
   color: #ffe3bd;
 
@@ -193,7 +194,7 @@ p, button {
   color: white;
 }
 .gallery-item:hover img {
-  transform: scale(1.1);
+  /* transform: scale(2.1); */
 }
 
 @media (max-width: 768px) {
