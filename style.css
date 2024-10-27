@@ -180,9 +180,7 @@ p, button {
 
 }
 
-.btn {
-  /* min-width: 320px; */
-}
+
 @media (min-width: 320) {
   .btn {
     margin: auto;
