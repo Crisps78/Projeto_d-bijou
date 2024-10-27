@@ -36,15 +36,15 @@ picture img {
   width: 30vw;
   max-width: 300px;
 }
-.container>h1 {
-  color: #ffe3bd;
-  font-family: "Bentham", serif;
-  font-size: 5em;
-  padding: 50px;
+#loja {
+  font-size: 2em;
+  
 }
 
 .normal p {
-  font-size: 1.5em;
+  padding: 0 1em;
+  font-size: 1em;
+  
 }
 
 .normal h2 {
@@ -52,7 +52,7 @@ picture img {
   border-radius: 10px;
   padding: 5px;
   text-align: center;
-  font-family: 'Birds'; Poppins , sans-serif ;
+  font-family: 'Birds', Poppins  , sans-serif ;
 }
 
 ul {
@@ -61,7 +61,7 @@ ul {
 
 li a {
   color: #ffe3bd;
-  font-family: 'Birds'; Poppins , sans-serif ;
+  font-family: 'Birds', Poppins , sans-serif ;
   text-decoration: none;
   font-size: 1.5em;
 }
