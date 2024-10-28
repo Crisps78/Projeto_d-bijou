@@ -142,9 +142,7 @@ textarea:focus {
   
 }
 
-
 .gallery {
-  
   margin-top: 50px;
   margin-bottom: 50px;
   display: flex;
@@ -160,7 +158,6 @@ textarea:focus {
   position: relative;
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
   align-items: center;
 }
 
@@ -185,18 +182,11 @@ p, button {
 }
 
 
-@media (min-width: 320) {
-  .btn {
-    margin: auto;
-  }
-}
 .btn:hover {
   text-decoration: underline;
   color: white;
 }
-.gallery-item:hover img {
-  /* transform: scale(2.1); */
-}
+
 
 @media (max-width: 768px) {
   .gallery-item {
