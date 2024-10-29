@@ -141,8 +141,16 @@ textarea:focus {
   outline-color: #843951;
 }
 
-.gallery {
+<<<<<<< HEAD
+=======
+.normal h2 {
+  min-width: 320px;
+  margin: 10px;
   
+}
+
+>>>>>>> 347707895900eed8695e1fb571b3a1815cd6505a
+.gallery {
   margin-top: 50px;
   margin-bottom: 50px;
   display: flex;
@@ -158,7 +166,6 @@ textarea:focus {
   position: relative;
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
   align-items: center;
 }
 
@@ -183,18 +190,11 @@ p, button {
 }
 
 
-@media (min-width: 320) {
-  .btn {
-    margin: auto;
-  }
-}
 .btn:hover {
   text-decoration: underline;
   color: white;
 }
-.gallery-item:hover img {
-  /* transform: scale(2.1); */
-}
+
 
 @media (max-width: 768px) {
   .gallery-item {
