@@ -4,11 +4,7 @@
   box-sizing: border-box;
   font-size: 1em;
 }
-@font-face {
-  font-family:"Birds" ;
-  font-family: "Vogue";
-  src: url(Birds of Paradise ∏ PERSONAL USE ONLY.ttf) format(truetype), url(Vogue.ttf)
-format(truetype)}
+
 
 @import url('https://fonts.googleapis.com/css2?family=Bentham&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
@@ -58,7 +54,7 @@ picture img {
   border-radius: 0.2em;
   padding: 0.5em;
   text-align: center;
-  font-family: 'Birds', Poppins  , sans-serif ;
+  font-family: Poppins  , sans-serif ;
 }
 
 ul {
@@ -67,7 +63,7 @@ ul {
 
 li a {
   color: #ffe3bd;
-  font-family: 'Birds', Poppins , sans-serif ;
+  font-family: Poppins , sans-serif ;
   text-decoration: none;
   font-size: 1.5em;
 }
@@ -128,7 +124,7 @@ form button {
   background-color: #843951;
   color: #fefafa;
   border-radius: 5px;
-  font-family: 'Birds'; Poppins , sans-serif ;
+  font-family: 'Birds', Poppins , sans-serif ;
   font-size: 18px;
   border: none;
   cursor: pointer;
@@ -246,7 +242,7 @@ p, button {
 
 
   footer {
-    font-family: 'Birds'; Poppins , sans-serif ;
+    font-family: 'Birds', Poppins , sans-serif ;
     background-color: #843951;
     text-align: center;
     color: #ffe3bd;
