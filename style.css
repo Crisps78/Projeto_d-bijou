@@ -41,11 +41,12 @@ picture img {
   font-size: 1em;
 }
 
-.normal h2 {
+.normal h1,h2 {
   align-self: center;
   display: inline;
   font-size: 1em;
   padding: 0.5em;
+  color: black;
   text-align: center;
   font-family: Poppins, sans-serif;
 }
@@ -93,7 +94,7 @@ section.imagem {
   background-position: center center;
   background-size: cover;
 }
-.form-email {
+/* .form-email {
   display: flex;
   justify-content: center;
 }
@@ -110,9 +111,9 @@ form textarea {
   border-radius: 5px;
   resize: none;
   height: 180px;
-}
+} */
 /* estilo btn enviar */
-form button {
+/* form button {
   background-color: #843951;
   color: #fefafa;
   border-radius: 5px;
@@ -120,16 +121,13 @@ form button {
   font-size: 18px;
   border: none;
   cursor: pointer;
-}
+} */
 /* btn Enviar */
-form button:hover {
+/* form button:hover {
   background-color: #54a15f;
-}
+} */
 
-.normal h2 {
-  min-width: 320px;
-  margin: 10px;
-}
+
 
 /* Reconfiguração da largura da galeria para telas menores */
 .gallery {
