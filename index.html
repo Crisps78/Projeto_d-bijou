@@ -20,7 +20,7 @@
   <header>
     <div class="container">
       <picture>
-        <img src="./img/LOGO@2x.png" alt="">
+        <img src="./img/LOGO@2x.png" alt="Logo">
       </picture>
       
       <nav>
@@ -31,7 +31,6 @@
       </nav>
     </div>
   </header>
-  </div>
 
   <main>
     <section class="normal">
@@ -53,6 +52,7 @@
 
     </section>
 
+    <!-- Galeria de Produtos -->
     <div class="gallery">
       <div class="gallery-item">
         <img src="./img/1.jpeg" alt="Imagem 1">
@@ -63,54 +63,55 @@
         </a>
       </div>
       <div class="gallery-item">
-        <img src="./img/2.jpeg" alt="Imagem 2">
-        <h5>Brinco pétalas de folhas</h5>
+        <img src="./img/2.jpeg" alt="Imagem 1">
+        <h5>Brinco espiral</h5>
         <p><strong>Preço: R$ 25,00</strong></p>
-        <a href="https://pag.ae/7_2sxuGCJ" target="_blank">
+        <a href="https://pag.ae/7_3HsFEcL" target="_blank">
           <button class="btn">Comprar</button>
         </a>
       </div>
       <div class="gallery-item">
-        <img src="./img/3.jpeg" alt="Imagem 3">
-        <h5>Brinco laço</h5>
+        <img src="./img/3.jpeg" alt="Imagem 1">
+        <h5>Brinco espiral</h5>
         <p><strong>Preço: R$ 25,00</strong></p>
-        <a href="https://pag.ae/7_2sxZD16" target="_blank">
+        <a href="https://pag.ae/7_3HsFEcL" target="_blank">
           <button class="btn">Comprar</button>
         </a>
       </div>
       <div class="gallery-item">
-        <img src="./img/4.jpeg" alt="Imagem 4">
-        <h5>Brinco flor</h5>
+        <img src="./img/4.jpeg" alt="Imagem 1">
+        <h5>Brinco espiral</h5>
         <p><strong>Preço: R$ 25,00</strong></p>
-        <a href="https://pag.ae/7_2sytExM" target="_blank">
+        <a href="https://pag.ae/7_3HsFEcL" target="_blank">
           <button class="btn">Comprar</button>
         </a>
       </div>
       <div class="gallery-item">
-        <img src="./img/5.jpeg" alt="Imagem 5">
-        <h5>Brinco espiral prata</h5>
+        <img src="./img/5.jpeg" alt="Imagem 1">
+        <h5>Brinco espiral</h5>
         <p><strong>Preço: R$ 25,00</strong></p>
-        <a href="https://pag.ae/7_2syW5g1" target="_blank">
+        <a href="https://pag.ae/7_3HsFEcL" target="_blank">
           <button class="btn">Comprar</button>
         </a>
       </div>
       <div class="gallery-item">
-        <img src="./img/6.jpeg" alt="Imagem 6">
-        <h5>Brinco entrelaçado</h5>
-        <p><strong>Preço: R$ 27,00</strong></p>
-        <a href="https://pag.ae/7_2szkz4m" target="_blank">
+        <img src="./img/6.jpeg" alt="Imagem 1">
+        <h5>Brinco espiral</h5>
+        <p><strong>Preço: R$ 25,00</strong></p>
+        <a href="https://pag.ae/7_3HsFEcL" target="_blank">
           <button class="btn">Comprar</button>
         </a>
       </div>
     </div>
+    
 
+    <!-- forms de contatos -->
     <div class="form-email" id="contato">
-
-      <form>
-        <input type="text" placeholder="Seu nome" required />
-        <input type="email" placeholder="Seu e-mail" required />
-        <input type="tel" placeholder="Seu telefone (opciopnal)" />
-        <textarea placeholder="Sua mensagem" required></textarea>
+      <form action="https://formspree.io/f/meoonzvz" method="POST">
+        <input type="text" name="nome" placeholder="Seu nome" required />
+        <input type="email" name="email" placeholder="Seu e-mail" required />
+        <input type="tel" name="telefone" placeholder="Seu telefone (opcional)" />
+        <textarea name="mensagem" placeholder="Sua mensagem" required></textarea>
         <button type="submit">Enviar</button>
       </form>
     </div>
@@ -120,26 +121,22 @@
     </form>
     </div>
 
-    <div class="rede-social">
-      <section class="social-whatsaap">
-        <a href="https://wa.me/5511992597417" target="_blank">
+    
+    
 
-          <img src="./img/whatsapp1.png" class="whatsapp-icon" alt="WhatsApp">
-
-        </a>
-      </section>
-
-      <section class="social-insta">
-        <a href="https://www.instagram.com/dbijou.acessorios?igsh=dzRvN2FsaXBkZDU3" target="_blank">
-
-          <img src="./img/instagram.png" class="instagram-icon" alt="WhatsApp">
-
-        </a>
-
-      </section>
-
-
-    </div>
+     <!-- Redes sociais -->
+  <div class="rede-social">
+    <section class="social-whatsaap">
+      <a href="https://wa.me/5511992597417" target="_blank">
+        <img src="./img/whatsapp1.png" class="whatsapp-icon" alt="WhatsApp">
+      </a>
+    </section>
+    <section class="social-insta">
+      <a href="https://www.instagram.com/dbijou.acessorios?igsh=dzRvN2FsaXBkZDU3" target="_blank">
+        <img src="./img/instagram.png" class="instagram-icon" alt="Instagram">
+      </a>
+    </section>
+  </div>
   </main>
   <footer>
     &copy; 2024 Site criado por Cris Art's - Todos os direitos reservados.
@@ -159,7 +156,7 @@
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
 
-
+    <script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
 </body>
 
 </html>
