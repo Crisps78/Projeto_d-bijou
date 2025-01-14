@@ -20,7 +20,7 @@
   <header>
     <div class="container">
       <picture>
-        <img src="./img/LOGO@2x.png" alt="">
+        <img src="./img/LOGO@2x.png" alt="Logo">
       </picture>
       
       <nav>
@@ -31,7 +31,6 @@
       </nav>
     </div>
   </header>
-  </div>
 
   <main>
     <section class="normal">
@@ -53,9 +52,10 @@
 
     </section>
 
+    <!-- Galeria de Produtos -->
     <div class="gallery">
       <div class="gallery-item">
-        <img src="./img/1.jpeg" alt="Imagem 1">
+        <img src="img/1.jpeg" alt="Imagem 1">
         <h5>Brinco espiral</h5>
         <p><strong>Preço: R$ 25,00</strong></p>
         <a href="https://pag.ae/7_3HsFEcL" target="_blank">
@@ -63,54 +63,120 @@
         </a>
       </div>
       <div class="gallery-item">
-        <img src="./img/2.jpeg" alt="Imagem 2">
-        <h5>Brinco pétalas de folhas</h5>
+        <img src="img/2.jpeg" alt="Imagem 2">
+        <h5>Brinco espiral</h5>
         <p><strong>Preço: R$ 25,00</strong></p>
-        <a href="https://pag.ae/7_2sxuGCJ" target="_blank">
+        <a href="https://pag.ae/7_3HsFEcL" target="_blank">
           <button class="btn">Comprar</button>
         </a>
       </div>
       <div class="gallery-item">
-        <img src="./img/3.jpeg" alt="Imagem 3">
-        <h5>Brinco laço</h5>
+        <img src="img/3.jpeg" alt="Imagem 3">
+        <h5>Brinco espiral</h5>
         <p><strong>Preço: R$ 25,00</strong></p>
-        <a href="https://pag.ae/7_2sxZD16" target="_blank">
+        <a href="https://pag.ae/7_3HsFEcL" target="_blank">
           <button class="btn">Comprar</button>
         </a>
       </div>
       <div class="gallery-item">
-        <img src="./img/4.jpeg" alt="Imagem 4">
-        <h5>Brinco flor</h5>
+        <img src="img/4.jpeg" alt="Imagem 4">
+        <h5>Brinco espiral</h5>
         <p><strong>Preço: R$ 25,00</strong></p>
-        <a href="https://pag.ae/7_2sytExM" target="_blank">
+        <a href="https://pag.ae/7_3HsFEcL" target="_blank">
           <button class="btn">Comprar</button>
         </a>
       </div>
       <div class="gallery-item">
-        <img src="./img/5.jpeg" alt="Imagem 5">
-        <h5>Brinco espiral prata</h5>
+        <img src="img/5.jpeg" alt="Imagem 5">
+        <h5>Brinco espiral</h5>
         <p><strong>Preço: R$ 25,00</strong></p>
-        <a href="https://pag.ae/7_2syW5g1" target="_blank">
+        <a href="https://pag.ae/7_3HsFEcL" target="_blank">
           <button class="btn">Comprar</button>
         </a>
       </div>
       <div class="gallery-item">
-        <img src="./img/6.jpeg" alt="Imagem 6">
-        <h5>Brinco entrelaçado</h5>
-        <p><strong>Preço: R$ 27,00</strong></p>
-        <a href="https://pag.ae/7_2szkz4m" target="_blank">
+        <img src="img/6.jpeg" alt="Imagem 6">
+        <h5>Brinco espiral</h5>
+        <p><strong>Preço: R$ 25,00</strong></p>
+        <a href="https://pag.ae/7_3HsFEcL" target="_blank">
+          <button class="btn">Comprar</button>
+        </a>
+      </div>
+
+      <div class="gallery-item">
+        <img src="img/7.jpeg" alt="Imagem 7">
+        <h5>Brinco espiral</h5>
+        <p><strong>Preço: R$ 25,00</strong></p>
+        <a href="https://pag.ae/7_3HsFEcL" target="_blank">
+          <button class="btn">Comprar</button>
+        </a>
+      </div>
+      <div class="gallery-item">
+        <img src="img/8.jpeg" alt="Imagem 8">
+        <h5>Brinco espiral</h5>
+        <p><strong>Preço: R$ 25,00</strong></p>
+        <a href="https://pag.ae/7_3HsFEcL" target="_blank">
+          <button class="btn">Comprar</button>
+        </a>
+      </div>
+      <div class="gallery-item">
+        <img src="img/9.jpeg" alt="Imagem 9">
+        <h5>Brinco espiral</h5>
+        <p><strong>Preço: R$ 25,00</strong></p>
+        <a href="https://pag.ae/7_3HsFEcL" target="_blank">
+          <button class="btn">Comprar</button>
+        </a>
+      </div>
+      <div class="gallery-item">
+        <img src="img/10.jpeg" alt="Imagem 10">
+        <h5>Brinco espiral</h5>
+        <p><strong>Preço: R$ 25,00</strong></p>
+        <a href="https://pag.ae/7_3HsFEcL" target="_blank">
+          <button class="btn">Comprar</button>
+        </a>
+      </div>
+      <div class="gallery-item">
+        <img src="img/11.jpeg" alt="Imagem 11">
+        <h5>Brinco espiral</h5>
+        <p><strong>Preço: R$ 25,00</strong></p>
+        <a href="https://pag.ae/7_3HsFEcL" target="_blank">
+          <button class="btn">Comprar</button>
+        </a>
+      </div>
+      <div class="gallery-item">
+        <img src="img/12.jpeg" alt="Imagem 12">
+        <h5>Brinco espiral</h5>
+        <p><strong>Preço: R$ 25,00</strong></p>
+        <a href="https://pag.ae/7_3HsFEcL" target="_blank">
+          <button class="btn">Comprar</button>
+        </a>
+      </div>
+      <div class="gallery-item">
+        <img src="img/13.jpeg" alt="Imagem 13">
+        <h5>Brinco espiral</h5>
+        <p><strong>Preço: R$ 25,00</strong></p>
+        <a href="https://pag.ae/7_3HsFEcL" target="_blank">
+          <button class="btn">Comprar</button>
+        </a>
+      </div>
+      <div class="gallery-item">
+        <img src="img/14.jpeg" alt="Imagem 14">
+        <h5>Brinco espiral</h5>
+        <p><strong>Preço: R$ 25,00</strong></p>
+        <a href="https://pag.ae/7_3HsFEcL" target="_blank">
           <button class="btn">Comprar</button>
         </a>
       </div>
     </div>
+    
 
-    <!-- <div class="form-email" id="contato">
-
-      <form>
-        <input type="text" placeholder="Seu nome" required />
-        <input type="email" placeholder="Seu e-mail" required />
-        <input type="tel" placeholder="Seu telefone (opciopnal)" />
-        <textarea placeholder="Sua mensagem" required></textarea>
+    <!-- forms de contatos -->
+    <div class="form-email" id="contato">
+      <form action="https://formspree.io/f/meoonzvz" method="POST">
+        <input type="text" name="nome" placeholder="Seu nome" required />
+        <input type="email" name="email" placeholder="Seu e-mail" required />
+        <input type="tel" name="telefone" placeholder="Seu telefone (opcional)" />
+        <textarea name="mensagem" placeholder="Sua mensagem" required></textarea>
         <button type="submit">Enviar</button>
       </form>
     </div>
@@ -118,28 +184,24 @@
     <input type="hidden" name="accessKey" value="e2ae7a817-b8a6-4ca9-ac32-3fc58f97d7fe">
     <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/obrigado.html">
     </form>
-    </div> -->
-
-    <div class="rede-social">
-      <section class="social-whatsaap">
-        <a href="https://wa.me/5511992597417" target="_blank">
-
-          <img src="./img/whatsapp1.png" class="whatsapp-icon" alt="WhatsApp">
-
-        </a>
-      </section>
-
-      <section class="social-insta">
-        <a href="https://www.instagram.com/dbijou.acessorios?igsh=dzRvN2FsaXBkZDU3" target="_blank">
-
-          <img src="./img/instagram.png" class="instagram-icon" alt="WhatsApp">
-
-        </a>
-
-      </section>
-
-
     </div>
+
+    
+    
+
+     <!-- Redes sociais -->
+  <div class="rede-social">
+    <section class="social-whatsaap">
+      <a href="https://wa.me/5511992597417" target="_blank">
+        <img src="./img/whatsapp1.png" class="whatsapp-icon" alt="WhatsApp">
+      </a>
+    </section>
+    <section class="social-insta">
+      <a href="https://www.instagram.com/dbijou.acessorios?igsh=dzRvN2FsaXBkZDU3" target="_blank">
+        <img src="./img/instagram.png" class="instagram-icon" alt="Instagram">
+      </a>
+    </section>
+  </div>
   </main>
   <footer>
     &copy; 2024 Site criado por Cris Art's - Todos os direitos reservados.
@@ -159,7 +221,10 @@
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
 
+ 
 
+
+    <script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
 </body>
 
 </html>
@@ -172,12 +237,11 @@
   font-size: 1em;
 }
 
-
-@import url('https://fonts.googleapis.com/css2?family=Bentham&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bentham&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 body {
-  background-color: #D5BA94;
+  background-color: #d5ba94;
   min-height: 100vh;
 }
 
@@ -189,18 +253,16 @@ body {
   min-width: 320px;
 }
 
-
 header {
   background-color: #843951;
-  
 }
 picture img {
-  width: 35vw;
-  max-width: 300px;
+  width: 45vw;
+  max-width: 350px;
+  /* margin-left: 200px; */
 }
 #loja {
   font-size: 2em;
-  
 }
 .normal {
   display: flex;
@@ -209,7 +271,6 @@ picture img {
 .normal p {
   padding: 0 1em;
   font-size: 1em;
-  
 }
 
 .normal h2 {
@@ -218,7 +279,7 @@ picture img {
   font-size: 1em;
   padding: 0.5em;
   text-align: center;
-  font-family: Poppins  , sans-serif ;
+  font-family: Poppins, sans-serif;
 }
 
 ul {
@@ -227,7 +288,7 @@ ul {
 
 li a {
   color: #ffe3bd;
-  font-family: Poppins , sans-serif ;
+  font-family: Poppins, sans-serif;
   text-decoration: none;
   font-size: 1.5em;
 }
@@ -242,14 +303,14 @@ main {
   max-width: 900px;
 }
 
-section>h1 {
+section > h1 {
   font-family: Vogue;
   text-align: center;
   padding: 20px;
   font-size: 3em;
 }
 
-section>p {
+section > p {
   font-family: Birds;
   padding-top: 10px;
   padding-bottom: 20px;
@@ -260,14 +321,13 @@ section.imagem {
   height: 200px;
   background-attachment: fixed;
   background-color: rgba(116, 113, 113, 0.726);
-  background-image: url(./img/4.jpeg);
+  background-image: url(/img01/9.jpeg);
   background-position: center center;
   background-size: cover;
 }
 .form-email {
   display: flex;
   justify-content: center;
-  
 }
 form input,
 form textarea,
@@ -275,40 +335,35 @@ form button {
   display: block;
   justify-content: center;
   width: 320px;
-  margin-bottom: 8px;
-  padding: 8px;
+  margin-bottom: 10px;
+  padding: 10px;
 }
 form textarea {
   border-radius: 5px;
   resize: none;
   height: 180px;
 }
-
+/* estilo btn enviar */
 form button {
   background-color: #843951;
   color: #fefafa;
   border-radius: 5px;
-  font-family: 'Birds', Poppins , sans-serif ;
+  font-family: "Birds", Poppins, sans-serif;
   font-size: 18px;
   border: none;
   cursor: pointer;
 }
+/* btn Enviar */
 form button:hover {
   background-color: #54a15f;
 }
-input:focus,
-textarea:focus {
-  outline-color: #843951;
-}
-
 
 .normal h2 {
   min-width: 320px;
   margin: 10px;
-  
 }
 
-
+/* Reconfiguração da largura da galeria para telas menores */
 .gallery {
   margin-top: 50px;
   margin-bottom: 50px;
@@ -319,96 +374,83 @@ textarea:focus {
 }
 
 .gallery-item {
-  width: calc(33.333% - 20px);
-  /* 3 colunas */
-  overflow: hidden;
-  position: relative;
+  width: calc(33.333% - 20px); /* 3 colunas */
   display: flex;
   flex-direction: column;
   align-items: center;
+  overflow: hidden;
+  position: relative;
 }
 
 .gallery-item img {
-  border: 3px solid #843951;
-  border-radius: 8px;
   width: 100%;
   height: 300px;
+  object-fit: cover; /* Garante que a imagem cubra a área sem distorcer */
+  border: 3px solid #843951;
+  border-radius: 8px;
   transition: transform 0.3s ease;
 }
-.gallery-item h5,
-p, button {
-  text-align: center;
-  
-  
-}
-.btn{
-  
+
+/* Botões de compra */
+.gallery-item .btn {
   background-color: rgb(39, 100, 64);
   color: #ffe3bd;
-
+  border: none;
+  cursor: pointer;
 }
-
 
 .btn:hover {
+  background-color: #54a15f;
+  color: rgb(255, 255, 255);
   text-decoration: underline;
-  color: white;
 }
-
 
 @media (max-width: 768px) {
   .gallery-item {
-    width: calc(50% - 50px);
-    /* 2 colunas em telas menores */
+    width: calc(50% - 50px); /* 2 colunas em telas menores */
   }
 }
 
 @media (max-width: 630px) {
   .gallery-item {
-    width: 50%; }
-    /* 1 coluna em telas muito pequenas */
+    width: 90%; /* 1 coluna em telas muito pequenas */
   }
+}
 
 .rede-social img {
   width: 50px;
   height: 50px;
 }
 
+section.contato {
+  display: flex;
+  justify-content: center;
+}
 
+.carousel-inner img {
+  width: 300px;
+  height: 400px;
+}
 
-  section.contato {
-    display: flex;
-    justify-content: center;
-  }
+.whatsapp-icon {
+  position: fixed;
+  right: 20px;
+  /* Distância da borda direita */
+  bottom: 100px;
+  /* Distância da borda inferior */
+  /* z-index: 1000; Para garantir que fique acima de outros elementos */
+}
 
+.instagram-icon {
+  position: fixed;
+  right: 20px;
+  bottom: 200px;
+}
 
-  .carousel-inner img {
-    width: 300px;
-    height: 400px;
-  }
-
-
-
-  .whatsapp-icon {
-    position: fixed;
-    right: 20px;
-    /* Distância da borda direita */
-    bottom: 100px;
-    /* Distância da borda inferior */
-    /* z-index: 1000; Para garantir que fique acima de outros elementos */
-  }
-
-
-  .instagram-icon {
-    position: fixed;
-    right: 20px;
-    bottom: 200px;
-  }
-
-
-  footer {
-    font-family: 'Birds', Poppins , sans-serif ;
-    background-color: #843951;
-    text-align: center;
-    color: #ffe3bd;
-    padding: 10px;
-  }
+footer {
+  font-family: "Birds", Poppins, sans-serif;
+  background-color: #843951;
+  text-align: center;
+  color: #ffe3bd;
+  padding: 10px;
+}
