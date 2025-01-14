@@ -16,18 +16,23 @@ body {
 .container {
   align-items: center;
   display: flex;
-  padding: 0 3rem;
+  /* padding: 0 9rem; */
   justify-content: space-between;
-  min-width: 320px;
+  
 }
 
 header {
-  background-color: #843951;
+  background-color: #843951;/
+  /* background-image: url(img/img.jpeg); */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 picture img {
-  width: 45vw;
+  width: 40vw;
   max-width: 350px;
-  /* margin-left: 200px; */
+  margin-left: 100px;
+  padding: 20px;
 }
 #loja {
   font-size: 2em;
@@ -131,12 +136,11 @@ form textarea {
 
 /* Reconfiguração da largura da galeria para telas menores */
 .gallery {
-  margin-top: 50px;
-  margin-bottom: 50px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
   gap: 30px;
+  justify-content: center;
+  padding: 10px;
 }
 
 .gallery-item {
@@ -145,20 +149,27 @@ form textarea {
   flex-direction: column;
   align-items: center;
   overflow: hidden;
-  position: relative;
 }
 
 .gallery-item img {
   width: 100%;
-  height: 300px;
-  object-fit: cover; /* Garante que a imagem cubra a área sem distorcer */
-  border: 3px solid #843951;
+  height: 250px;
+  object-fit: cover;
+  border: 2px solid #843951;
   border-radius: 8px;
-  transition: transform 0.3s ease;
+  cursor: pointer;
 }
 
-/* Botões de compra */
-.gallery-item .btn {
+.gallery-item h5 {
+  font-size: 1.2em;
+  margin-top: 10px;
+}
+
+.gallery-item p {
+  font-size: 1em;
+}
+
+.btn {
   background-color: rgb(39, 100, 64);
   color: #ffe3bd;
   border: none;
@@ -167,8 +178,16 @@ form textarea {
 
 .btn:hover {
   background-color: #54a15f;
-  color: rgb(255, 255, 255);
-  text-decoration: underline;
+  color: white;
+}
+
+.modal-dialog {
+  max-width: 30%;
+  width: 40%;
+}
+
+.modal-body img {
+  width: 10%;
 }
 
 @media (max-width: 768px) {
@@ -179,7 +198,7 @@ form textarea {
 
 @media (max-width: 630px) {
   .gallery-item {
-    width: 90%; /* 1 coluna em telas muito pequenas */
+    width: 80%; /* 1 coluna em telas muito pequenas */
   }
 }
 

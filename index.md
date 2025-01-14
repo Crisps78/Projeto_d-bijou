@@ -23,31 +23,17 @@
         <img src="./img/LOGO@2x.png" alt="Logo">
       </picture>
       
-      <nav>
+      <!-- <nav>
         <ul>
           <li><a href="#loja">Sobre a loja</a></li>
           <li><a href="#contato">Contato</a></li>
         </ul>
-      </nav>
+      </nav> -->
     </div>
   </header>
 
   <main>
-    <section class="normal">
-      <h1 id="loja">Sobre a loja</h1>
-      <p>
-        Descubra o Brilho da <strong>D'BIJOU!</strong>
-
-        Transforme seu estilo com nossas bijuterias exclusivas que fazem cada look brilhar. Na D'BIJOU, cada peça é uma
-        obra de arte, perfeita para expressar sua personalidade e realçar sua beleza.
-
-        Venha conferir nossas novidades e encontre o acessório ideal para brilhar em qualquer ocasião!
-
-      <h2><strong>D'BIJOU: Sua beleza, nosso brilho!</strong></h2>
-      </p>
-    </section>
-
-
+    
     <section class="imagem" id="img01">
 
     </section>
@@ -171,7 +157,7 @@
     
 
     <!-- forms de contatos -->
-    <div class="form-email" id="contato">
+    <!-- <div class="form-email" id="contato">
       <form action="https://formspree.io/f/meoonzvz" method="POST">
         <input type="text" name="nome" placeholder="Seu nome" required />
         <input type="email" name="email" placeholder="Seu e-mail" required />
@@ -184,7 +170,7 @@
     <input type="hidden" name="accessKey" value="e2ae7a817-b8a6-4ca9-ac32-3fc58f97d7fe">
     <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/obrigado.html">
     </form>
-    </div>
+    </div> -->
 
     
     
@@ -197,12 +183,27 @@
       </a>
     </section>
     <section class="social-insta">
-      <a href="https://www.instagram.com/dbijou.acessorios?igsh=dzRvN2FsaXBkZDU3" target="_blank">
+      <a href="https://www.instagram.com/dbijou.ofc?igsh=MWZubm95aTdzb3N2ZA==" target="_blank">
         <img src="./img/instagram.png" class="instagram-icon" alt="Instagram">
       </a>
     </section>
   </div>
+
+  <section class="normal">
+    <h1 id="loja">Sobre a loja</h1>
+    <p>
+      Descubra o Brilho da <strong>D'BIJOU!</strong>
+
+      Transforme seu estilo com nossas bijuterias exclusivas que fazem cada look brilhar. Na D'BIJOU, cada peça é uma
+      obra de arte, perfeita para expressar sua personalidade e realçar sua beleza.
+
+      Venha conferir nossas novidades e encontre o acessório ideal para brilhar em qualquer ocasião!
+
+    <h2 ><strong>D'BIJOU: Sua beleza, nosso brilho!</strong></h2>
+    </p>
+  </section>
   </main>
+  
   <footer>
     &copy; 2024 Site criado por Cris Art's - Todos os direitos reservados.
   </footer>
@@ -248,18 +249,23 @@ body {
 .container {
   align-items: center;
   display: flex;
-  padding: 0 3rem;
+  /* padding: 0 9rem; */
   justify-content: space-between;
-  min-width: 320px;
+  
 }
 
 header {
-  background-color: #843951;
+  background-color: #843951;/
+  /* background-image: url(img/img.jpeg); */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 picture img {
-  width: 45vw;
+  width: 40vw;
   max-width: 350px;
-  /* margin-left: 200px; */
+  margin-left: 100px;
+  padding: 20px;
 }
 #loja {
   font-size: 2em;
@@ -273,11 +279,12 @@ picture img {
   font-size: 1em;
 }
 
-.normal h2 {
+.normal h1,h2 {
   align-self: center;
   display: inline;
   font-size: 1em;
   padding: 0.5em;
+  color: black;
   text-align: center;
   font-family: Poppins, sans-serif;
 }
@@ -325,7 +332,7 @@ section.imagem {
   background-position: center center;
   background-size: cover;
 }
-.form-email {
+/* .form-email {
   display: flex;
   justify-content: center;
 }
@@ -342,9 +349,9 @@ form textarea {
   border-radius: 5px;
   resize: none;
   height: 180px;
-}
+} */
 /* estilo btn enviar */
-form button {
+/* form button {
   background-color: #843951;
   color: #fefafa;
   border-radius: 5px;
@@ -352,16 +359,13 @@ form button {
   font-size: 18px;
   border: none;
   cursor: pointer;
-}
+} */
 /* btn Enviar */
-form button:hover {
+/* form button:hover {
   background-color: #54a15f;
-}
+} */
 
-.normal h2 {
-  min-width: 320px;
-  margin: 10px;
-}
+
 
 /* Reconfiguração da largura da galeria para telas menores */
 .gallery {
@@ -384,11 +388,11 @@ form button:hover {
 
 .gallery-item img {
   width: 100%;
-  height: 300px;
+  height: 400px;
   object-fit: cover; /* Garante que a imagem cubra a área sem distorcer */
-  border: 3px solid #843951;
+  border: 2px solid #843951;
   border-radius: 8px;
-  transition: transform 0.3s ease;
+  
 }
 
 /* Botões de compra */
@@ -454,3 +458,4 @@ footer {
   color: #ffe3bd;
   padding: 10px;
 }
+
