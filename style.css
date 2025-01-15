@@ -29,6 +29,13 @@ header {
   background-size: cover;
   
 }
+
+header h1 {
+  color: #d5ba94;
+  font-size: clamp(3rem, 5vw + 1rem, 3rem);
+  line-height: 1.2;
+  margin: 0 auto;
+}
 picture img {
   width: 40vw;
   max-width: 350px;
@@ -203,6 +210,23 @@ form textarea {
   }
 }
 
+@media(max-width: 1024px) {
+  header h1 {
+    font-size: 2rem;
+  }
+}
+
+@media(max-width: 768px) {
+  header h1 {
+    font-size: 2rem;
+  }
+}
+
+@media(max-width: 480px) {
+  header h1 {
+    font-size: 1rem;
+  }
+}
 .rede-social img {
   width: 50px;
   height: 50px;
