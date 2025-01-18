@@ -1,182 +1,292 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./favicon_io/favicon.ico"
+      type="image/x-icon"
+    />
+    <link
+      rel="shortcut icon"
+      href="./favicon_io/apple-touch-icon.png"
+      type="image/x-icon"
+    />
+    <link
+      rel="shortcut icon"
+      href="./favicon_io/favicon.ico"
+      type="image/x-icon"
+    />
 
-<head>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="shortcut icon" href="./favicon_io/favicon.ico" type="image/x-icon">
-  <link rel="shortcut icon" href="./favicon_io/apple-touch-icon.png" type="image/x-icon">
-  <link rel="shortcut icon" href="./favicon_io/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css" />
+    <title>D'BIJOU</title>
+  </head>
 
-  
-  <link rel="stylesheet" href="style.css">
-  <title>D'BIJOU</title>
-</head>
+  <body>
+    <header>
+      <div class="container">
+        <picture>
+          <img src="img/logo01.png" alt="Logo" />
+        </picture>
+        <h1>D‘bijou, sua beleza, nosso brilho✨</h1>
 
-<body>
-
-  <header>
-    <div class="container">
-      <picture>
-        <img src="img/logo01.png" alt="Logo">
-      </picture>
-      <h1>D‘bijou, sua beleza, nosso brilho✨</h1>
-      <hr>
-      
-      <!-- <nav>
+        <!-- <nav>
         <ul>
           <li><a href="#loja">Sobre a loja</a></li>
           <li><a href="#contato">Contato</a></li>
         </ul>
       </nav> -->
-    </div>
-  </header>
+      </div>
+    </header>
 
-  <main>
-    
-    <section class="imagem" id="img01">
+    <main>
+      <section class="imagem" id="img01"></section>
 
-    </section>
+      <!-- Galeria de Produtos -->
+      <div class="gallery">
+        <div class="gallery-item">
+          <img
+            src="img/1.jpeg"
+            alt="Imagem 1"
+            data-toggle="modal"
+            data-target="#imageModal"
+            onclick="openModal(this)"
+          />
+          <h5>Conjunto Nó-(Choker regulável e brinco)-Dourado</h5>
+          <p><strong>Preço: R$ 25,50</strong></p>
+          <a href="https://pag.ae/7_hhbDnxN" target="_blank">
+            <button class="btn btn-success">Comprar</button>
+          </a>
+        </div>
+        <div class="gallery-item">
+          <img
+            src="img/2.jpeg"
+            alt="Imagem 2"
+            data-toggle="modal"
+            data-target="#imageModal"
+            onclick="openModal(this)"
+          />
+          <h5>Conjunto Nó-(Choker regulável e brinco)-Prateado</h5>
+          <p><strong>Preço: R$ 25,50</strong></p>
+          <a href="https://pag.ae/7_hhcxLcR" target="_blank">
+            <button class="btn btn-success">Comprar</button>
+          </a>
+        </div>
+        <div class="gallery-item">
+          <img
+            src="img/3.jpeg"
+            alt="Imagem 3"
+            data-toggle="modal"
+            data-target="#imageModal"
+            onclick="openModal(this)"
+          />
+          <h5>Brinco Ear Cuff-Prateado</h5>
+          <br />
+          <p><strong>Preço: R$ 19,50</strong></p>
+          <a href="https://pag.ae/7_hhdmNXa" target="_blank">
+            <button class="btn btn-success">Comprar</button>
+          </a>
+        </div>
+        <div class="gallery-item">
+          <img
+            src="img/4.jpeg"
+            alt="Imagem 1"
+            data-toggle="modal"
+            data-target="#imageModal"
+            onclick="openModal(this)"
+          />
+          <h5>Meia Pétala-Prateado</h5>
+          <p><strong>Preço: R$ 15,50</strong></p>
+          <a href="https://pag.ae/7_hheaCQs" target="_blank">
+            <button class="btn btn-success">Comprar</button>
+          </a>
+        </div>
+        <div class="gallery-item">
+          <img
+            src="img/5.jpeg"
+            alt="Imagem 2"
+            data-toggle="modal"
+            data-target="#imageModal"
+            onclick="openModal(this)"
+          />
+          <h5>Brinco Elo-Dourado</h5>
+          <p><strong>Preço: R$ 13,50</strong></p>
+          <a href="https://pag.ae/7_hheLcps" target="_blank">
+            <button class="btn btn-success">Comprar</button>
+          </a>
+        </div>
+        <div class="gallery-item">
+          <img
+            src="img/6.jpeg"
+            alt="Imagem 3"
+            data-toggle="modal"
+            data-target="#imageModal"
+            onclick="openModal(this)"
+          />
+          <h5>Argola Trio - Prateado</h5>
+          <p><strong>Preço: R$ 14,50</strong></p>
+          <a href="https://pag.ae/7_hhfdUjs" target="_blank">
+            <button class="btn btn-success">Comprar</button>
+          </a>
+        </div>
+        <div class="gallery-item">
+          <img
+            src="img/7.jpeg"
+            alt="Imagem 1"
+            data-toggle="modal"
+            data-target="#imageModal"
+            onclick="openModal(this)"
+          />
+          <h5>Argola Trio - Dourado</h5>
+          <p><strong>Preço: R$ 14,50</strong></p>
+          <a href="https://pag.ae/7_hryfrzs" target="_blank">
+            <button class="btn btn-success">Comprar</button>
+          </a>
+        </div>
+        <div class="gallery-item">
+          <img
+            src="img/8.jpeg"
+            alt="Imagem 2"
+            data-toggle="modal"
+            data-target="#imageModal"
+            onclick="openModal(this)"
+          />
+          <h5>Circulo Vazado-Prateado</h5>
+          <p><strong>Preço: R$ 15,50</strong></p>
+          <a href="https://pag.ae/7_hryShYH" target="_blank">
+            <button class="btn btn-success">Comprar</button>
+          </a>
+        </div>
+        <div class="gallery-item">
+          <img
+            src="img/9.jpeg"
+            alt="Imagem 3"
+            data-toggle="modal"
+            data-target="#imageModal"
+            onclick="openModal(this)"
+          />
+          <h5>Brinco Elo-Prateado</h5>
+          <p><strong>Preço: R$ 13,50</strong></p>
+          <a href="https://pag.ae/7_hrzw9CJ" target="_blank">
+            <button class="btn btn-success">Comprar</button>
+          </a>
+        </div>
+        <div class="gallery-item">
+          <img
+            src="img/10.jpeg"
+            alt="Imagem 1"
+            data-toggle="modal"
+            data-target="#imageModal"
+            onclick="openModal(this)"
+          />
+          <h5>Bracelete Relógio</h5>
+          <p><strong>Preço: R$ 13,50</strong></p>
+          <a href="https://pag.ae/7_hrAmW9o" target="_blank">
+            <button class="btn btn-success">Comprar</button>
+          </a>
+        </div>
+        <div class="gallery-item">
+          <img
+            src="img/11.jpeg"
+            alt="Imagem 2"
+            data-toggle="modal"
+            data-target="#imageModal"
+            onclick="openModal(this)"
+          />
+          <h5>Bracelete Trançado</h5>
+          <p><strong>Preço: R$ 14,50</strong></p>
+          <a href="https://pag.ae/7_hrB2bVo" target="_blank">
+            <button class="btn btn-success">Comprar</button>
+          </a>
+        </div>
+        <div class="gallery-item">
+          <img
+            src="img/12.jpeg"
+            alt="Imagem 3"
+            data-toggle="modal"
+            data-target="#imageModal"
+            onclick="openModal(this)"
+          />
+          <h5>Bracelete Folha-Dourado</h5>
+          <p><strong>Preço: R$ 15,50</strong></p>
+          <a href="https://pag.ae/7_hrCdSw3" target="_blank">
+            <button class="btn btn-success">Comprar</button>
+          </a>
+        </div>
+        <div class="gallery-item">
+          <img
+            src="img/13.jpeg"
+            alt="Imagem 1"
+            data-toggle="modal"
+            data-target="#imageModal"
+            onclick="openModal(this)"
+          />
+          <h5>Bracelete Folha-Prateado</h5>
+          <p><strong>Preço: R$ 15,50</strong></p>
+          <a href="https://pag.ae/7_hrBzDNN" target="_blank">
+            <button class="btn btn-success">Comprar</button>
+          </a>
+        </div>
+        <div class="gallery-item">
+          <img
+            src="img/14.jpeg"
+            alt="Imagem 2"
+            data-toggle="modal"
+            data-target="#imageModal"
+            onclick="openModal(this)"
+          />
+          <h5>Gargantilha Cordão Baiano</h5>
+          <p><strong>Preço: R$ 22,50</strong></p>
+          <a href="https://pag.ae/7_hrCHFw2" target="_blank">
+            <button class="btn btn-success">Comprar</button>
+          </a>
+        </div>
 
-    <!-- Galeria de Produtos -->
-    <div class="gallery">
-      <div class="gallery-item">
-        <img src="img/1.jpeg" alt="Imagem 1" data-toggle="modal" data-target="#imageModal" onclick="openModal(this)">
-        <h5>Conjunto Nó-(Choker regulável e brinco)-Dourado</h5>
-        <p><strong>Preço: R$ 25,50</strong></p>
-        <a href="https://pag.ae/7_hhbDnxN" target="_blank">
-          <button class="btn btn-success">Comprar</button>
-        </a>
+        <!-- Adicione mais produtos conforme necessário -->
       </div>
-      <div class="gallery-item">
-        <img src="img/2.jpeg" alt="Imagem 2" data-toggle="modal" data-target="#imageModal" onclick="openModal(this)">
-        <h5>Conjunto Nó-(Choker regulável e brinco)-Prateado</h5>
-        <p><strong>Preço: R$ 25,50</strong></p>
-        <a href="https://pag.ae/7_hhcxLcR" target="_blank">
-          <button class="btn btn-success">Comprar</button>
-        </a>
-      </div>
-      <div class="gallery-item">
-        <img src="img/3.jpeg" alt="Imagem 3" data-toggle="modal" data-target="#imageModal" onclick="openModal(this)">
-        <h5>Brinco Ear Cuff-Prateado</h5>
-        <br><p><strong>Preço: R$ 19,50</strong></p>
-        <a href="https://pag.ae/7_hhdmNXa" target="_blank">
-          <button class="btn btn-success">Comprar</button>
-        </a>
-      </div>
-      <div class="gallery-item">
-        <img src="img/4.jpeg" alt="Imagem 1" data-toggle="modal" data-target="#imageModal" onclick="openModal(this)">
-        <h5>Meia Pétala-Prateado</h5>
-        <p><strong>Preço: R$ 15,50</strong></p>
-        <a href="https://pag.ae/7_hheaCQs" target="_blank">
-          <button class="btn btn-success">Comprar</button>
-        </a>
-      </div>
-      <div class="gallery-item">
-        <img src="img/5.jpeg" alt="Imagem 2" data-toggle="modal" data-target="#imageModal" onclick="openModal(this)">
-        <h5>Brinco Elo-Dourado</h5>
-        <p><strong>Preço: R$ 13,50</strong></p>
-        <a href="https://pag.ae/7_hheLcps" target="_blank">
-          <button class="btn btn-success">Comprar</button>
-        </a>
-      </div>
-      <div class="gallery-item">
-        <img src="img/6.jpeg" alt="Imagem 3" data-toggle="modal" data-target="#imageModal" onclick="openModal(this)">
-        <h5>Argola Trio - Prateado</h5>
-        <p><strong>Preço: R$ 14,50</strong></p>
-        <a href="https://pag.ae/7_hhfdUjs" target="_blank">
-          <button class="btn btn-success">Comprar</button>
-        </a>
-      </div>
-      <div class="gallery-item">
-        <img src="img/7.jpeg" alt="Imagem 1" data-toggle="modal" data-target="#imageModal" onclick="openModal(this)">
-        <h5>Argola Trio - Dourado</h5>
-        <p><strong>Preço: R$ 14,50</strong></p>
-        <a href="https://pag.ae/7_hryfrzs" target="_blank">
-          <button class="btn btn-success">Comprar</button>
-        </a>
-      </div>
-      <div class="gallery-item">
-        <img src="img/8.jpeg" alt="Imagem 2" data-toggle="modal" data-target="#imageModal" onclick="openModal(this)">
-        <h5>Circulo Vazado-Prateado</h5>
-        <p><strong>Preço: R$ 15,50</strong></p>
-        <a href="https://pag.ae/7_hryShYH" target="_blank">
-          <button class="btn btn-success">Comprar</button>
-        </a>
-      </div>
-      <div class="gallery-item">
-        <img src="img/9.jpeg" alt="Imagem 3" data-toggle="modal" data-target="#imageModal" onclick="openModal(this)">
-        <h5>Brinco Elo-Prateado</h5>
-        <p><strong>Preço: R$ 13,50</strong></p>
-        <a href="https://pag.ae/7_hrzw9CJ" target="_blank">
-          <button class="btn btn-success">Comprar</button>
-        </a>
-      </div>
-      <div class="gallery-item">
-        <img src="img/10.jpeg" alt="Imagem 1" data-toggle="modal" data-target="#imageModal" onclick="openModal(this)">
-        <h5>Bracelete Relógio</h5>
-        <p><strong>Preço: R$ 13,50</strong></p>
-        <a href="https://pag.ae/7_hrAmW9o" target="_blank">
-          <button class="btn btn-success">Comprar</button>
-        </a>
-      </div>
-      <div class="gallery-item">
-        <img src="img/11.jpeg" alt="Imagem 2" data-toggle="modal" data-target="#imageModal" onclick="openModal(this)">
-        <h5>Bracelete Trançado</h5>
-        <p><strong>Preço: R$ 14,50</strong></p>
-        <a href="https://pag.ae/7_hrB2bVo" target="_blank">
-          <button class="btn btn-success">Comprar</button>
-        </a>
-      </div>
-      <div class="gallery-item">
-        <img src="img/12.jpeg" alt="Imagem 3" data-toggle="modal" data-target="#imageModal" onclick="openModal(this)">
-        <h5>Bracelete Folha-Dourado</h5>
-        <p><strong>Preço: R$ 15,50</strong></p>
-        <a href="https://pag.ae/7_hrCdSw3" target="_blank">
-          <button class="btn btn-success">Comprar</button>
-        </a>
-      </div>
-      <div class="gallery-item">
-        <img src="img/13.jpeg" alt="Imagem 1" data-toggle="modal" data-target="#imageModal" onclick="openModal(this)">
-        <h5>Bracelete Folha-Prateado</h5>
-        <p><strong>Preço: R$ 15,50</strong></p>
-        <a href="https://pag.ae/7_hrBzDNN" target="_blank">
-          <button class="btn btn-success">Comprar</button>
-        </a>
-      </div>
-      <div class="gallery-item">
-        <img src="img/14.jpeg" alt="Imagem 2" data-toggle="modal" data-target="#imageModal" onclick="openModal(this)">
-        <h5>Gargantilha Cordão Baiano</h5>
-        <p><strong>Preço: R$ 22,50</strong></p>
-        <a href="https://pag.ae/7_hrCHFw2" target="_blank">
-          <button class="btn btn-success">Comprar</button>
-        </a>
-      </div>
-      
-      <!-- Adicione mais produtos conforme necessário -->
-    </div>
 
-    <!-- Modal de Expansão da Imagem -->
-    <div class="modal fade" id="imageModal" tabindex="-1" role="dialog" aria-labelledby="imageModalLabel" aria-hidden="true">
-      <div class="modal-dialog modal-lg" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            <img id="modalImage" src="" class="d-block w-100" alt="Imagem Expandida">
+      <!-- Modal de Expansão da Imagem -->
+      <div
+        class="modal fade"
+        id="imageModal"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="imageModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Fechar"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <img
+                id="modalImage"
+                src=""
+                class="d-block w-100"
+                alt="Imagem Expandida"
+              />
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    
 
-    <!-- forms de contatos -->
-    <!-- <div class="form-email" id="contato">
+      <!-- forms de contatos -->
+      <!-- <div class="form-email" id="contato">
       <form action="https://formspree.io/f/meoonzvz" method="POST">
         <input type="text" name="nome" placeholder="Seu nome" required />
         <input type="email" name="email" placeholder="Seu e-mail" required />
@@ -191,59 +301,71 @@
     </form>
     </div> -->
 
-    
-    
+      <!-- Redes sociais -->
+      <div class="rede-social">
+        <section class="social-whatsaap">
+          <a href="https://wa.me/5511992597417" target="_blank">
+            <img
+              src="./img/whatsapp1.png"
+              class="whatsapp-icon"
+              alt="WhatsApp"
+            />
+          </a>
+        </section>
+        <section class="social-insta">
+          <a
+            href="https://www.instagram.com/dbijou.ofc?igsh=MWZubm95aTdzb3N2ZA=="
+            target="_blank"
+          >
+            <img
+              src="./img/instagram.png"
+              class="instagram-icon"
+              alt="Instagram"
+            />
+          </a>
+        </section>
+      </div>
 
-     <!-- Redes sociais -->
-  <div class="rede-social">
-    <section class="social-whatsaap">
-      <a href="https://wa.me/5511992597417" target="_blank">
-        <img src="./img/whatsapp1.png" class="whatsapp-icon" alt="WhatsApp">
-      </a>
-    </section>
-    <section class="social-insta">
-      <a href="https://www.instagram.com/dbijou.ofc?igsh=MWZubm95aTdzb3N2ZA==" target="_blank">
-        <img src="./img/instagram.png" class="instagram-icon" alt="Instagram">
-      </a>
-    </section>
-  </div>
+      <section class="normal">
+        <h1 id="loja">Sobre a loja</h1>
 
-  <section class="normal">
-    <h1 id="loja">Sobre a loja</h1>
-    
-    <p>
-      Descubra o Brilho da <strong>D'BIJOU!</strong>
-      Transforme seu estilo com nossas bijuterias exclusivas que fazem cada look brilhar. Na D'BIJOU, cada peça é uma
-      obra de arte, perfeita para expressar sua personalidade e realçar sua beleza.
-      Venha conferir nossas novidades e encontre o acessório ideal para brilhar em qualquer ocasião!
-    
-    </p>
-  </section>
-</main>
-  
-  <footer>
-    &copy; 2024 Site criado por Cris Art's - Todos os direitos reservados.
-  </footer>
+        <p>
+          Descubra o Brilho da <strong>D'BIJOU!</strong>
+          Transforme seu estilo com nossas bijuterias exclusivas que fazem cada
+          look brilhar. Na D'BIJOU, cada peça é uma obra de arte, perfeita para
+          expressar sua personalidade e realçar sua beleza. Venha conferir
+          nossas novidades e encontre o acessório ideal para brilhar em qualquer
+          ocasião!
+        </p>
+      </section>
+    </main>
 
-  <a href="https://wa.me/5511992597417" class="whatsapp-icon" target="_blank">
-    <i class="fab fa-whatsapp"></i>
-  </a>
+    <footer>
+      &copy; 2024 Site criado por Cris Art's - Todos os direitos reservados.
+    </footer>
 
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-    crossorigin="anonymous"></script>
+    <a href="https://wa.me/5511992597417" class="whatsapp-icon" target="_blank">
+      <i class="fab fa-whatsapp"></i>
+    </a>
 
- 
-
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
 
     <script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
-    
+
     <script>
       function openModal(imgElement) {
         // Pega a imagem clicada e a define no modal
@@ -251,6 +373,5 @@
         modalImg.src = imgElement.src;
       }
     </script>
-</body>
-
+  </body>
 </html>
